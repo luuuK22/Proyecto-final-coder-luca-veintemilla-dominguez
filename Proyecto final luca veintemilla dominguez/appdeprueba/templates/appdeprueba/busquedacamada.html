@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario para buscar una camada</title>
+</head>
+<body>
+    <h1> Busqueda de camada</h1>
+    {% if miFormulario.errors %}
+
+    <p style="color: red;"> estan mal los datos, revisa por favor</p>
+    {% endif %}
+
+    
+
+   
+    <form action="appdeprueba/buscar/" method="GET">
+
+        <input type="number" name="camada" id="camada"
+        <input type="submit" value="buscar">
+
+
+
+    </form>
+</body>
+</html>
